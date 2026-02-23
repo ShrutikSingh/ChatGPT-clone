@@ -6,9 +6,9 @@ A clean and responsive ChatGPT-style interface built with **React** and **Materi
 
 ## 📸 Screenshots
 
-| Feature Overview | Chat Interface |
-| :---: | :---: |
-| ![Screenshot 1](./screenshots/screenshot1.png) | ![Screenshot 2](./screenshots/screenshot2.png) |
+![Home Screen](./screenshots/screenshot1.png)
+
+![Chat Interface](./screenshots/screenshot2.png)
 
 ---
 
