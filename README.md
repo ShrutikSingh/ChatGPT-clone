@@ -1,16 +1,43 @@
-# React + Vite
+# 🤖 ChatGPT Clone | Frontend Focus
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive ChatGPT clone built with a focus on **modular component architecture**, clean frontend structure, and professional UI design using **Material UI (MUI)**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots
 
-## React Compiler
+| Desktop View | Mobile Experience |
+| :---: | :---: |
+| ![Main Dashboard](./screenshots/desktop-main.png) | ![Mobile Sidebar](./screenshots/mobile-view.png) |
+| *Clean, minimalist chat interface* | *Fully responsive drawer navigation* |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Component-Driven Development:** Built with highly reusable functional components.
+* **Material UI Integration:** Leveraging MUI’s powerful Grid system, Box models, and Typography.
+* **Responsive Design:** Seamless transitions between desktop, tablet, and mobile views.
+* **Vite Powered:** Lightning-fast Hot Module Replacement (HMR) and optimized build performance.
+* **State Management:** Efficient handling of chat history and input states.
+
+## 🛠️ Tech Stack
+
+* **React 18** (Functional Components & Hooks)
+* **Vite** (Build Tool)
+* **Material UI (MUI) v5** (Styling & Icons)
+* **Emotion** (CSS-in-JS)
+
+---
+
+## 🏗️ Project Structure
+
+The project follows a scalable folder structure to keep logic and presentation separate:
+
+```text
+src/
+├── components/         # Reusable UI elements (Button, Input, Sidebar)
+├── layout/             # Main layout wrappers (ChatContainer, Navigation)
+├── theme/              # MUI custom theme configurations
+├── assets/             # Images and static files
+└── App.jsx             # Main entry point
