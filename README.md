@@ -1,43 +1,34 @@
-# 🤖 ChatGPT Clone | Frontend Focus
+# 🤖 ChatGPT Clone (Frontend)
 
-A sleek, responsive ChatGPT clone built with a focus on **modular component architecture**, clean frontend structure, and professional UI design using **Material UI (MUI)**.
+A clean and responsive ChatGPT-style interface built with **React** and **Material UI**. This project focuses on high-quality frontend structure and modular component design.
 
 ---
 
 ## 📸 Screenshots
 
-| Desktop View | Mobile Experience |
+| Desktop Interface | Mobile View |
 | :---: | :---: |
-| ![Main Dashboard](./screenshots/desktop-main.png) | ![Mobile Sidebar](./screenshots/mobile-view.png) |
-| *Clean, minimalist chat interface* | *Fully responsive drawer navigation* |
+| ![Desktop](./screenshots/desktop-main.png) | ![Mobile](./screenshots/mobile-view.png) |
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-* **Component-Driven Development:** Built with highly reusable functional components.
-* **Material UI Integration:** Leveraging MUI’s powerful Grid system, Box models, and Typography.
-* **Responsive Design:** Seamless transitions between desktop, tablet, and mobile views.
-* **Vite Powered:** Lightning-fast Hot Module Replacement (HMR) and optimized build performance.
-* **State Management:** Efficient handling of chat history and input states.
+* **Modern UI:** Built entirely with Material UI (MUI) components.
+* **Fully Responsive:** Works perfectly on phones, tablets, and desktops.
+* **Modular Code:** Organized into reusable components for easy maintenance.
+* **Fast Loading:** Powered by Vite for a lightning-fast developer experience.
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
-* **React 18** (Functional Components & Hooks)
-* **Vite** (Build Tool)
-* **Material UI (MUI) v5** (Styling & Icons)
-* **Emotion** (CSS-in-JS)
+* **React** - UI Framework
+* **Material UI (MUI)** - Styling and Icons
+* **Vite** - Build Tool
 
 ---
 
-## 🏗️ Project Structure
+## 🚀 How to Run
 
-The project follows a scalable folder structure to keep logic and presentation separate:
-
-```text
-src/
-├── components/         # Reusable UI elements (Button, Input, Sidebar)
-├── layout/             # Main layout wrappers (ChatContainer, Navigation)
-├── theme/              # MUI custom theme configurations
-├── assets/             # Images and static files
-└── App.jsx             # Main entry point
+1. **Clone the project**
+   ```bash
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
