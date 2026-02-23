@@ -6,16 +6,15 @@ A clean and responsive ChatGPT-style interface built with **React** and **Materi
 
 ## 📸 Screenshots
 
-| Desktop Interface | Mobile View |
+| Feature Overview | Chat Interface |
 | :---: | :---: |
-| ![Desktop](./screenshots/desktop-main.png) | ![Mobile](./screenshots/mobile-view.png) |
+| ![Screenshot 1](./screenshots/screenshot1.png) | ![Screenshot 2](./screenshots/screenshot2.png) |
 
 ---
 
 ## ✨ Key Features
 
 * **Modern UI:** Built entirely with Material UI (MUI) components.
-* **Fully Responsive:** Works perfectly on phones, tablets, and desktops.
 * **Modular Code:** Organized into reusable components for easy maintenance.
 * **Fast Loading:** Powered by Vite for a lightning-fast developer experience.
 
@@ -27,8 +26,3 @@ A clean and responsive ChatGPT-style interface built with **React** and **Materi
 
 ---
 
-## 🚀 How to Run
-
-1. **Clone the project**
-   ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
